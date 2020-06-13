@@ -7,7 +7,14 @@ def main():
         print(f"Number {n} cubed: {n**3}")
         print(f"Number {n} to the fifth: {n**5}")
 
+    print("------FACTORIAL TESTING-----")
+    print(fact(8))
 
+
+def fact(n):
+    if n <= 1:
+        return 1
+    return n * fact(n-1)
 
 if __name__ == '__main__':
     main()
