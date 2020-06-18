@@ -23,5 +23,8 @@ def comprhensions():
     altered_numbers = [number ** 2 for number in numbers]
     print(altered_numbers)
 
+    new_numbers = [number * 2 for number in numbers if number < 20]
+    print(new_numbers)
+
 if __name__ == '__main__':
     main()
